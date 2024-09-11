@@ -3,7 +3,7 @@ Proje: Euclidean Mesafesi Hesaplayıcı
 Bu proje, iki boyutlu uzaydaki noktalar arasındaki Öklid mesafesini hesaplayan bir Python programı içermektedir. Program, iki boyutlu noktaları temsil eden bir listeye dayalı olarak, her nokta çifti arasındaki mesafeyi bulur ve en kısa mesafeyi ekrana yazdırır.
 Dosyalar:
 
-    main.py: Python kodunu içeren ana dosya.
+    öklid.py: Python kodunu içeren ana dosya.
 
 Kullanılan Yöntemler:
 
