@@ -31,23 +31,3 @@ min_distance = min(distances)
 # Print the results
 print("Distances between points:", distances)
 print("Minimum distance:", min_distance)
-
-import math
-from itertools import combinations
-
-# Define the points in a list (example points)
-points = [(1, 2), (4, 6), (5, 8), (3, 1)]
-
-# Function to calculate the Euclidean distance between two points
-def euclideanDistance(point1, point2):
-    return math.sqrt((point2[0] - point1[0]) ** 2 + (point2[1] - point1[1]) ** 2)
-
-# Calculate distances between all point pairs using itertools.combinations
-distances = [euclideanDistance(p1, p2) for p1, p2 in combinations(points, 2)]
-
-# Find the minimum distance
-min_distance = min(distances)
-
-# Print the results
-print("Distances between points:", distances)
-print("Minimum distance:", min_distance)
